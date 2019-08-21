@@ -13,24 +13,22 @@
 .container {
     max-width: 940px;
     margin: 0 auto;
-    background-color: #fff;
 }
 
 .top {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 
 .header-top {
     display: flex;
     justify-content: space-between;
-    width: 100%
+    margin-bottom: 250px;
 }
 
 .menu {
     width: 20px;
     height: 20px;
+    margin: 25px 0 0 20px;
 }
 
 .emblem {
@@ -41,12 +39,13 @@
 
 .emblem-name {
     display: flex;
+    margin-left: 100px;
 }
 
 ul.social-contacts li {
     display: inline;
+    font-size: 22px;
     margin-left: 15px;
-    font-size: 20px;
 }
 
 a {
@@ -57,7 +56,7 @@ a {
     font-size: 30px;
     line-height: 20px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     color: #222222;
     margin-top: 15px;
     margin-left: 10px;
@@ -65,12 +64,14 @@ a {
 
 .social-contacts {
     list-style-type: none;
+    margin-top: 20px;
 }
 
 .header-middle {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .header-title {
@@ -85,6 +86,7 @@ a {
     line-height: 24px;
     width: 480px;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .start-button {
@@ -95,4 +97,15 @@ a {
     font-size: 22px;
     line-height: 24px;
     font-weight: bold;
+    margin-bottom: 180px;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.fa-long-arrow-alt-down {
+    margin-bottom: 50px;
+    font-size: 32px;
 }
