@@ -1,10 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .header {
     background-color: #fcdb00;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 55px;
 }
 
 .container {
@@ -13,28 +16,75 @@
     background-color: #fff;
 }
 
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+}
+
+.menu {
+    width: 20px;
+    height: 20px;
+}
+
+.emblem {
+    padding-top: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.emblem-name {
+    display: flex;
+}
+
+ul.social-contacts li {
+    display: inline;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
 .name-site {
     font-size: 30px;
     line-height: 20px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     color: #222222;
+    margin-top: 15px;
+    margin-left: 10px;
 }
 
-.list-facebook {
-    list-style-image: url(../images/facebook-icon.png);
+.social-contacts {
+    list-style-type: none;
 }
 
-.list-twitter {
-    list-style-image: url(../images/twitter-icon.png);
+.header-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.list-google {
-    list-style-image: url(../images/google-icon.png);
+.header-title {
+    font-size: 48px;
+    font-weight: 18px;
+    font-weight: bold;
+    color: #222222;
 }
 
-.list-pinterest {
-    list-style-image: url(../images/pinterest-icon.png);
+.header-description {
+    font-size: 20px;
+    line-height: 24px;
+    width: 480px;
+    text-align: center;
 }
 
 .start-button {
@@ -42,4 +92,7 @@
     height: 50px;
     background-color: #fcdb00;
     border: solid 2px #222222;
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: bold;
 }
