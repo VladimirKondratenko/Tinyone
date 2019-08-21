@@ -2,3 +2,44 @@
     margin: 0;
     padding: 0;
 }
+
+.header {
+    background-color: #fcdb00;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.name-site {
+    font-size: 30px;
+    line-height: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: #222222;
+}
+
+.list-facebook {
+    list-style-image: url(../images/facebook-icon.png);
+}
+
+.list-twitter {
+    list-style-image: url(../images/twitter-icon.png);
+}
+
+.list-google {
+    list-style-image: url(../images/google-icon.png);
+}
+
+.list-pinterest {
+    list-style-image: url(../images/pinterest-icon.png);
+}
+
+.start-button {
+    width: 250px;
+    height: 50px;
+    background-color: #fcdb00;
+    border: solid 2px #222222;
+}
