@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+
+/* first block header*/
+
 .header {
     background-color: #fcdb00;
     font-family: 'Source Sans Pro', sans-serif;
@@ -46,6 +49,7 @@ ul.social-contacts li {
     display: inline;
     font-size: 22px;
     margin-left: 15px;
+    color: #222222;
 }
 
 a {
@@ -79,6 +83,7 @@ a {
     font-weight: 18px;
     font-weight: bold;
     color: #222222;
+    margin-bottom: 20px;
 }
 
 .header-description {
@@ -98,6 +103,13 @@ a {
     line-height: 24px;
     font-weight: bold;
     margin-bottom: 180px;
+    cursor: pointer;
+}
+
+.start-button:hover {
+    box-shadow: 0 5px 35px 0px rgba(0, 0, 0, .1);
+    background-color: orange;
+    color: white;
 }
 
 .header-bottom {
@@ -108,4 +120,35 @@ a {
 .fa-long-arrow-alt-down {
     margin-bottom: 50px;
     font-size: 32px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+    .header-top {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-bottom: 50px;
+    }
+    .social-contacts {
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .emblem-name {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        margin-top: -30px;
+    }
+    .header-title {
+        width: 80%;
+        text-align: center;
+    }
+    .header-description {
+        width: 80%;
+    }
+    .start-button {
+        margin-bottom: 100px;
+    }
 }
