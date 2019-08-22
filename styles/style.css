@@ -159,7 +159,7 @@ a {
         margin: -30px auto 100px auto;
     }
     .header-title {
-        width: 80%;
+        max-width: 80%;
         text-align: center;
     }
     .header-description {
@@ -172,6 +172,10 @@ a {
 
 
 /* second block (features) */
+
+.section-features {
+    margin-bottom: 120px;
+}
 
 .title-features {
     font-family: 'Source Sans Pro', sans-serif;
@@ -190,13 +194,13 @@ a {
     line-height: 24px;
     color: #898989;
     margin-top: 20px;
-    width: 720px;
+    max-width: 80%;
     text-align: center;
     margin: 20px auto 90px auto;
 }
 
 .block-features {
-    width: 200px;
+    max-width: 200px;
     margin: 0 50px 70px 20px;
     display: flex;
     justify-content: space-between;
@@ -244,7 +248,6 @@ a {
 
 @media screen and (max-width: 1000px) {
     .block-features {
-       
         margin: 0 30px 20px 20px;
         display: flex;
         justify-content: space-around;
