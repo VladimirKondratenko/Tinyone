@@ -20,11 +20,6 @@
 .container {
     max-width: 940px;
     margin: 0 auto;
-    align-items: center;
-}
-
-.top {
-    align-items: center;
 }
 
 .header-top {
@@ -173,10 +168,6 @@ a {
 
 /* second block (features) */
 
-.section-features {
-    margin-bottom: 120px;
-}
-
 .title-features {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 32px;
@@ -211,12 +202,25 @@ a {
 .fa-tablet-alt,
 .fa-lemon,
 .fa-folder,
-.fa-code,
-.fa-envelope,
+.fa-envelope {
+    font-size: 50px;
+    line-height: 52.47px;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.fa-code {
+    font-size: 40px;
+    line-height: 52.47px;
+    margin-right: 22px;
+    font-weight: bold;
+}
+
 .fa-bookmark {
     font-size: 50px;
-    line-height: 52, 47px;
-    margin-right: 30px;
+    line-height: 52.47px;
+    margin-right: 40px;
+    font-weight: bold;
 }
 
 .name-features {
@@ -256,5 +260,109 @@ a {
     }
     .description-features {
         justify-content: center;
+    }
+}
+
+
+/* third block */
+
+.works {
+    margin-top: 50px;
+}
+
+.title-works {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    color: #222222;
+    font-weight: 900;
+    text-align: center;
+}
+
+.screen-work {
+    margin-bottom: 10px;
+}
+
+.paragraph-works {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #898989;
+    margin-top: 20px;
+    text-align: center;
+    max-width: 80%;
+    margin: 20px auto 65px auto;
+}
+
+.screen-work {
+    max-width: 220px;
+    max-height: 220px;
+}
+
+.name-works {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #222222;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.top-blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.bottom-blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.desc-works {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #898989;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+@media screen and (max-width: 860px) {
+    .top-blocks {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .block-works {
+        width: 45%;
+    }
+    .bottom-blocks {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 559px) {
+    .top-blocks {
+        flex-direction: column;
+    }
+    .bottom-blocks {
+        flex-direction: column;
+        text-align: center;
+    }
+    .block-works {
+        margin: 0 auto;
+    }
+    .screen-work {
+        max-width: 100%;
+        height: auto;
     }
 }
