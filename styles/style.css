@@ -14,6 +14,10 @@
     background-color: #ffffff;
 }
 
+a.social-links {
+    color: #010101;
+}
+
 
 /* first block header*/
 
@@ -66,6 +70,10 @@ ul.social-contacts li {
 
 .fa-pinterest:hover {
     color: #e60023;
+}
+
+.fa-linkedin-in:hover {
+    color: #0077b5;
 }
 
 a {
@@ -436,7 +444,7 @@ a {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
     line-height: 18px;
-    color: #313841;
+    color: #686d74;
     margin-top: 15px;
 }
 
@@ -463,3 +471,47 @@ ul.social-contacts-team li {
     }
 
 }
+
+/* footer contacts */
+
+.footer {
+    background-color: #010101;
+}
+
+.contacts {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 100;
+    font-style: normal; 
+    padding: 40px 85px 100px 0;
+    display: flex;
+   justify-content: space-between;
+
+}
+
+.address {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 100;
+    font-style: normal; 
+    width: 180px;
+    margin-left: 15px;
+}
+
+ul.footer-list li {
+    list-style-type: none;
+}
+
+a.footer-links {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-links:hover {
+    color: orange;
+}
+
