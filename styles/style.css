@@ -385,6 +385,7 @@ a {
 
 
 /*fourth block team */
+
 .section-team {
     margin-bottom: 170px;
 }
@@ -451,6 +452,7 @@ a {
 .social-contacts-team {
     margin-top: 15px;
 }
+
 ul.social-contacts-team li {
     display: inline;
     font-size: 16px;
@@ -469,8 +471,8 @@ ul.social-contacts-team li {
         max-width: 100%;
         height: auto;
     }
-
 }
+
 
 /* footer contacts */
 
@@ -484,11 +486,8 @@ ul.social-contacts-team li {
     line-height: 20px;
     color: #ffffff;
     font-weight: 100;
-    font-style: normal; 
+    font-style: normal;
     padding: 40px 85px 100px 0;
-    display: flex;
-   justify-content: space-between;
-
 }
 
 .address {
@@ -497,8 +496,8 @@ ul.social-contacts-team li {
     line-height: 20px;
     color: #ffffff;
     font-weight: 100;
-    font-style: normal; 
-    width: 180px;
+    font-style: normal;
+    max-width: 180px;
     margin-left: 15px;
 }
 
@@ -515,3 +514,27 @@ a.footer-links {
     color: orange;
 }
 
+.footer-list {
+    max-width: 20%;
+}
+
+.test-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+@media screen and (max-width: 705px)  {
+    .test-block {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        max-width: 90%;
+    }
+    
+    .contacts {
+        padding: 0px;
+    }
+}
