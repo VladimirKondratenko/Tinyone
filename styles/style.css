@@ -425,6 +425,13 @@ a {
     margin-right: 30px;
 }
 
+.profile-team:hover {
+    background: rgba(0, 0, 0, 0);
+    color: #3a7999;
+    box-shadow: inset 0 0 0 90px #FFFACD;
+    cursor: pointer;
+}
+
 .member-name {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 22px;
@@ -524,8 +531,7 @@ a.footer-links {
     justify-content: space-around;
 }
 
-
-@media screen and (max-width: 705px)  {
+@media screen and (max-width: 705px) {
     .test-block {
         flex-direction: column;
         align-items: center;
@@ -533,7 +539,6 @@ a.footer-links {
         flex-wrap: wrap;
         max-width: 90%;
     }
-    
     .contacts {
         padding: 0px;
     }
