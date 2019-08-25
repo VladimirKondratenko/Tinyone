@@ -1,3 +1,3 @@
 # Tinyone
-This page was marked up from tineon�.psd (attached to the project)</br>
+This page was marked up from tinyone.psd (attached to the project)</br>
 https://vladimirkondratenko.github.io/tinyone/
