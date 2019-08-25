@@ -136,6 +136,14 @@ a {
     color: white;
 }
 
+a.link-start {
+    color: #010101;
+}
+
+.start-button #characteristics:hover {
+    color: white;
+}
+
 .header-bottom {
     display: flex;
     justify-content: center;
@@ -308,9 +316,8 @@ a {
     opacity: 1;
 }
 
-.screen-work:hover {
+.block-works:hover {
     cursor: pointer;
-    border-radius: 70%;
     background-color: orange;
     opacity: 0.6;
 }
